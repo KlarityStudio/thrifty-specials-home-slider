@@ -1,29 +1,29 @@
-#dol_slider{
+#dol_slider {
   position: relative;
   padding: 115.5px 0;
-  .row-fluid{
+  .row-fluid {
     text-align:   center;
-    .span-4{
+    .span-4 {
       width: 33%;
       margin-left: 0;
-      .product-lockup{
+      .product-lockup {
         display: inline-block;
         float: right;
       }
-      .product-plan{
+      .product-plan {
         background: #EA4A4A;
         border-radius: 50%;
         margin-right: 16px;
         @include size(68px);
         float: left;
         text-align: center;
-        p{
+        p {
           color: #fff;
           font-size: 12px;
           padding-top: 7px;
           line-height: 12px;
           font-family: SourceSansPro-Semibold;
-          span{
+          span {
             font-size: 27px;
             display: block;
             margin-top: 7px;
@@ -31,34 +31,34 @@
           }
         }
       }
-      .product-price{
+      .product-price {
         margin-top: 7px;
-        p{
+        p {
           color: #C1C4C5;
           font-size: 14px;
           text-align: left;
         }
-        span{
-          &:first-of-type{
+        span {
+          &:first-of-type {
             color: $fontBlue;
             font-size: 33px;
             display: inline-block;
           }
-          &:last-of-type{
+          &:last-of-type {
             margin-left: 22px;
             position: relative;
             top: -7px;
           }
         }
       }
-      .product-lockup{
-        h1{
+      .product-lockup {
+        h1 {
           margin-top: 30px;
         }
       }
     }
   }
-  .slider-controls{
+  .slider-controls {
     @include position(absolute);
     z-index: -10;
     top: 0;
@@ -67,7 +67,7 @@
     bottom: 0;
     display: inline-block;
 
-    >div{
+    > div {
       z-index: 0;
       background-color: #EAECF0;
       @include size(64px);
@@ -76,10 +76,10 @@
       float: left;
       left: 50px;
       cursor: pointer;
-      .slider-icon{
+      .slider-icon {
         height: 13.5px;
         width: 8.38px;
-        background:{
+        background: {
           image: url('images/slider-control.svg');
           size: contain;
           repeat:no-repeat;
@@ -88,10 +88,10 @@
         margin: auto;
         top: 25.25px;
       }
-      &.slider-next{
+      &.slider-next {
         right: 50px;
         left: initial;
-        .slider-icon{
+        .slider-icon {
           @include transform(rotate(180deg));
         }
       }
