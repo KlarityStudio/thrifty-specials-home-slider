@@ -1,0 +1,100 @@
+#dol_slider{
+  position: relative;
+  padding: 115.5px 0;
+  .row-fluid{
+    text-align:   center;
+    .span-4{
+      width: 33%;
+      margin-left: 0;
+      .product-lockup{
+        display: inline-block;
+        float: right;
+      }
+      .product-plan{
+        background: #EA4A4A;
+        border-radius: 50%;
+        margin-right: 16px;
+        @include size(68px);
+        float: left;
+        text-align: center;
+        p{
+          color: #fff;
+          font-size: 12px;
+          padding-top: 7px;
+          line-height: 12px;
+          font-family: SourceSansPro-Semibold;
+          span{
+            font-size: 27px;
+            display: block;
+            margin-top: 7px;
+            font-weight: 900;
+          }
+        }
+      }
+      .product-price{
+        margin-top: 7px;
+        p{
+          color: #C1C4C5;
+          font-size: 14px;
+          text-align: left;
+        }
+        span{
+          &:first-of-type{
+            color: $fontBlue;
+            font-size: 33px;
+            display: inline-block;
+          }
+          &:last-of-type{
+            margin-left: 22px;
+            position: relative;
+            top: -7px;
+          }
+        }
+      }
+      .product-lockup{
+        h1{
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  .slider-controls{
+    @include position(absolute);
+    z-index: -10;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+
+    >div{
+      z-index: 0;
+      background-color: #EAECF0;
+      @include size(64px);
+      top: calc( 450.44px/2 - 64px/2);
+      position: absolute;
+      float: left;
+      left: 50px;
+      cursor: pointer;
+      .slider-icon{
+        height: 13.5px;
+        width: 8.38px;
+        background:{
+          image: url('images/slider-control.svg');
+          size: contain;
+          repeat:no-repeat;
+        }
+        position: relative;
+        margin: auto;
+        top: 25.25px;
+      }
+      &.slider-next{
+        right: 50px;
+        left: initial;
+        .slider-icon{
+          @include transform(rotate(180deg));
+        }
+      }
+    }
+  }
+}
