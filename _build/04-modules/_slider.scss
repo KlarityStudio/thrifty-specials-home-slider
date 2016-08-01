@@ -8,7 +8,7 @@
       margin-left: 0;
       .product-lockup {
         display: inline-block;
-        float: right;
+        margin-left: calc(50% - 68px);
       }
       .product-plan {
         background: #EA4A4A;
