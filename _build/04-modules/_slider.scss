@@ -4,7 +4,6 @@
   .latest-vehicle-specials {
     text-align: center;
     .special {
-      margin-left: 0;
       .vehicle-group-rating {
         display: inline-block;
         margin-left: calc(50% - 68px);
@@ -58,19 +57,14 @@
     }
   }
   .slider-controls {
-    @include position(absolute);
+    @include position(absolute, 0 0 0 0);
     z-index: -10;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
     display: inline-block;
-
     > div {
       z-index: 0;
       background-color: #EAECF0;
       @include size(64px);
-      top: calc( 450.44px/2 - 64px/2);
+      top: 193.22px;
       position: absolute;
       float: left;
       left: 50px;
@@ -81,7 +75,7 @@
         background: {
           image: url('images/slider-control.svg');
           size: contain;
-          repeat:no-repeat;
+          repeat: no-repeat;
         }
         position: relative;
         margin: auto;
