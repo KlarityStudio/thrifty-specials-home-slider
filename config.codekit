@@ -188,6 +188,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/specials\/hyundai-i10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22415,
+		"inputAbbreviatedPath": "\/images\/specials\/hyundai-i10.png",
+		"outputAbbreviatedPath": "\/images\/specials\/hyundai-i10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specials\/merc-c.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35569,
+		"inputAbbreviatedPath": "\/images\/specials\/merc-c.png",
+		"outputAbbreviatedPath": "\/images\/specials\/merc-c.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specials\/Nissan-Lavina.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28561,
+		"inputAbbreviatedPath": "\/images\/specials\/Nissan-Lavina.png",
+		"outputAbbreviatedPath": "\/images\/specials\/Nissan-Lavina.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specials\/Nissan-QashQai.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33293,
+		"inputAbbreviatedPath": "\/images\/specials\/Nissan-QashQai.png",
+		"outputAbbreviatedPath": "\/images\/specials\/Nissan-QashQai.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specials\/placeholder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37016,
+		"inputAbbreviatedPath": "\/images\/specials\/placeholder.png",
+		"outputAbbreviatedPath": "\/images\/specials\/placeholder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specials\/placeholder2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32167,
+		"inputAbbreviatedPath": "\/images\/specials\/placeholder2.png",
+		"outputAbbreviatedPath": "\/images\/specials\/placeholder2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specials\/placeholder3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32687,
+		"inputAbbreviatedPath": "\/images\/specials\/placeholder3.png",
+		"outputAbbreviatedPath": "\/images\/specials\/placeholder3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specials\/polo-vivo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27599,
+		"inputAbbreviatedPath": "\/images\/specials\/polo-vivo.png",
+		"outputAbbreviatedPath": "\/images\/specials\/polo-vivo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,

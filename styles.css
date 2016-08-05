@@ -370,15 +370,15 @@ h1, p, span {
 h1 {
   font-size: 19px; }
 
-#dol_slider {
+#dol_advert1 {
   position: relative;
   padding: 115.5px 0; }
-  #dol_slider .latest-vehicle-specials {
+  #dol_advert1 .latest-vehicle-specials {
     text-align: center; }
-    #dol_slider .latest-vehicle-specials .special .vehicle-group-rating {
+    #dol_advert1 .latest-vehicle-specials .special .vehicle-group-rating {
       display: inline-block;
       margin-left: calc(50% - 68px); }
-    #dol_slider .latest-vehicle-specials .special .vehicle-plan {
+    #dol_advert1 .latest-vehicle-specials .special .vehicle-plan {
       background: #EA4A4A;
       border-radius: 50%;
       margin-right: 16px;
@@ -386,34 +386,43 @@ h1 {
       width: 68px;
       float: left;
       text-align: center; }
-      #dol_slider .latest-vehicle-specials .special .vehicle-plan p {
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-plan p {
         color: #fff;
         font-size: 12px;
         padding-top: 7px;
         line-height: 12px;
         font-family: SourceSansPro-Semibold; }
-        #dol_slider .latest-vehicle-specials .special .vehicle-plan p span {
+        #dol_advert1 .latest-vehicle-specials .special .vehicle-plan p span {
           font-size: 27px;
           display: block;
           margin-top: 7px;
           font-weight: 900; }
-    #dol_slider .latest-vehicle-specials .special .vehicle-price {
+    #dol_advert1 .latest-vehicle-specials .special .vehicle-price {
       margin-top: 7px; }
-      #dol_slider .latest-vehicle-specials .special .vehicle-price p {
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-price p {
         color: #C1C4C5;
         font-size: 14px;
         text-align: left; }
-      #dol_slider .latest-vehicle-specials .special .vehicle-price span:first-of-type {
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:first-of-type {
+        display: none; }
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:nth-of-type(2) {
         color: #007AC3;
         font-size: 33px;
         display: inline-block; }
-      #dol_slider .latest-vehicle-specials .special .vehicle-price span:last-of-type {
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:last-of-type {
         margin-left: 22px;
         position: relative;
         top: -7px; }
-    #dol_slider .latest-vehicle-specials .special .vehicle-group-rating h1 {
+    #dol_advert1 .latest-vehicle-specials .special .vehicle-title h2 {
+      margin-top: 20px;
+      margin-bottom: 5px; }
+    #dol_advert1 .latest-vehicle-specials .special .vehicle-title h4 {
+      font-style: italic;
+      color: #aaa;
+      margin-top: 5px; }
+    #dol_advert1 .latest-vehicle-specials .special .vehicle-group-rating h1 {
       margin-top: 30px; }
-  #dol_slider .slider-controls {
+  #dol_advert1 .slider-controls {
     position: absolute;
     top: 0;
     right: 0;
@@ -421,7 +430,7 @@ h1 {
     left: 0;
     z-index: -10;
     display: inline-block; }
-    #dol_slider .slider-controls > div {
+    #dol_advert1 .slider-controls > div {
       z-index: 0;
       background-color: #EAECF0;
       height: 64px;
@@ -431,7 +440,7 @@ h1 {
       float: left;
       left: 50px;
       cursor: pointer; }
-      #dol_slider .slider-controls > div .slider-icon {
+      #dol_advert1 .slider-controls > div .slider-icon {
         height: 13.5px;
         width: 8.38px;
         background-image: url("images/slider-control.svg");
@@ -440,10 +449,10 @@ h1 {
         position: relative;
         margin: auto;
         top: 25.25px; }
-      #dol_slider .slider-controls > div.slider-next {
+      #dol_advert1 .slider-controls > div.slider-next {
         right: 50px;
         left: initial; }
-        #dol_slider .slider-controls > div.slider-next .slider-icon {
+        #dol_advert1 .slider-controls > div.slider-next .slider-icon {
           -webkit-transform: rotate(180deg);
           -moz-transform: rotate(180deg);
           -ms-transform: rotate(180deg);

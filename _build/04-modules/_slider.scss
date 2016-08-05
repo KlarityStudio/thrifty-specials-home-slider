@@ -1,4 +1,4 @@
-#dol_slider {
+#dol_advert1 {
   position: relative;
   padding: 115.5px 0;
   .latest-vehicle-specials {
@@ -38,6 +38,9 @@
         }
         span {
           &:first-of-type {
+            display: none;
+          }
+          &:nth-of-type(2) {
             color: $fontBlue;
             font-size: 33px;
             display: inline-block;
@@ -47,6 +50,17 @@
             position: relative;
             top: -7px;
           }
+        }
+      }
+      .vehicle-title {
+        h2{
+          margin-top: 20px;
+          margin-bottom: 5px;
+        }
+        h4{
+          font-style: italic;
+          color: #aaa;
+          margin-top: 5px;
         }
       }
       .vehicle-group-rating {

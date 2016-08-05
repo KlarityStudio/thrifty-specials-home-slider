@@ -7,50 +7,53 @@
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <section id="dol_slider">
+    <section id="dol_advert1" class="row-fluid">
       <div class="container">
-        <div class="row-fluid latest-vehicle-specials">
-          <div class="span4 special">
+        <div class="latest-vehicle-specials" class="latest-vehicle-specials">
+          <div itemscope itemtype="http://schema.org/Product" class="span4 special">
             <div class="vehicle-group-rating">
-              <div class="vehicle-plan">
-                <p>on <br>special <span>D</span></p>
+              <div  itemprop="productID" class="vehicle-plan">
+                <p>on <br>special <span>P</span></p>
               </div>
-              <div class="vehicle-price">
-                <p>from <span>R328</span><span>per day</span></p>
+              <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="vehicle-price">
+                <p>from <span itemprop="priceCurrency">ZAR</span><span itemprop="price">R149</span><span>per day</span></p>
               </div>
             </div>
-            <img src="images/placeholder.png" alt="Infinity Q50" title="Infinity Q50">
+            <img src="http://klaritytest2.tk/images/specials/placeholder2.png" alt="Datsun Go" title="Datsun Go">
             <div class="vehicle-title">
-              <h2>Infinity Q50 or Simillar</h2>
+              <h2 itemprop="name">Datsun Go</h2>
+                <p>or simillar</p>
             </div>
           </div>
-          <div class="span4 special">
+          <div itemscope itemtype="http://schema.org/Product" class="span4 special">
             <div class="vehicle-group-rating">
-              <div class="vehicle-plan">
-                <p>on <br> special <span>R1</span></p>
+              <div  itemprop="productID" class="vehicle-plan">
+                <p>on <br> special <span>A</span></p>
               </div>
-              <div class="vehicle-price">
-                <p>from <span>R149</span><span>per day</span></p>
-              </div>
-            </div>
-            <img src="images/placeholder2.png" alt="Datsun Go" title="Datsun Go">
-            <div class="vehicle-title">
-              <h2>Datsun Go</h2>
-            </div>
-          </div>
-          <div class="span4 special">
-            <div class="vehicle-group-rating">
-              <div class="vehicle-plan">
-                <p>on <br> special <span>S</span></p>
-              </div>
-              <div class="vehicle-price">
-                <p>from <span>R229</span><span>per day</span></p>
+              <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="vehicle-price">
+                <p>from <span itemprop="priceCurrency">ZAR</span><span itemprop="price">R280</span><span>per day</span></p>
               </div>
             </div>
-              <img src="images/placeholder3.png" alt="Chevrolet Cruze" title="Chevrolet Cruze">
+              <img src="http://klaritytest2.tk/images/specials/hyundai-i10.png" alt="Hyundai i10" title="Hyundai i10">
               <div class="vehicle-title">
-                <h2>Chevrolet Cruze or Simillar</h2>
+                <h2 itemprop="name">Hyundai i10</h2>
+                  <p>or simillar</p>
               </div>
+          </div>
+          <div itemscope itemtype="http://schema.org/Product" class="span4 special">
+            <div class="vehicle-group-rating">
+              <div itemprop="productID" class="vehicle-plan">
+                <p>on <br> special <span>B</span></p>
+              </div>
+              <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="vehicle-price">
+                <p>from <span itemprop="priceCurrency">ZAR</span><span itemprop="price">R292</span><span>per day</span></p>
+              </div>
+            </div>
+            <img src="http://klaritytest2.tk/images/specials/polo-vivo.png" alt="VW Polo Vivo Hatch" title="VW Polo Vivo Hatch">
+            <div class="vehicle-title">
+              <h2 itemprop="name">VW Polo Vivo Hatch</h2>
+                <p>or simillar</p>
+            </div>
           </div>
         </div>
       </div>
