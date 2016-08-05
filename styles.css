@@ -369,92 +369,58 @@ h1, p, span {
 
 h1 {
   font-size: 19px; }
-
-#dol_advert1 {
-  position: relative;
-  padding: 115.5px 0; }
-  #dol_advert1 .latest-vehicle-specials {
-    text-align: center; }
-    #dol_advert1 .latest-vehicle-specials .special .vehicle-group-rating {
-      display: inline-block;
-      margin-left: calc(50% - 68px); }
-    #dol_advert1 .latest-vehicle-specials .special .vehicle-plan {
-      background: #EA4A4A;
-      border-radius: 50%;
-      margin-right: 16px;
-      height: 68px;
-      width: 68px;
-      float: left;
+  /*-----     Slider Custom css     -----*/
+  #dol_advert1 {
+    position: relative;
+    padding: 115.5px 0; }
+    #dol_advert1 .latest-vehicle-specials {
       text-align: center; }
-      #dol_advert1 .latest-vehicle-specials .special .vehicle-plan p {
-        color: #fff;
-        font-size: 12px;
-        padding-top: 7px;
-        line-height: 12px;
-        font-family: SourceSansPro-Semibold; }
-        #dol_advert1 .latest-vehicle-specials .special .vehicle-plan p span {
-          font-size: 27px;
-          display: block;
-          margin-top: 7px;
-          font-weight: 900; }
-    #dol_advert1 .latest-vehicle-specials .special .vehicle-price {
-      margin-top: 7px; }
-      #dol_advert1 .latest-vehicle-specials .special .vehicle-price p {
-        color: #C1C4C5;
-        font-size: 14px;
-        text-align: left; }
-      #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:first-of-type {
-        display: none; }
-      #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:nth-of-type(2) {
-        color: #007AC3;
-        font-size: 33px;
-        display: inline-block; }
-      #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:last-of-type {
-        margin-left: 22px;
-        position: relative;
-        top: -7px; }
-    #dol_advert1 .latest-vehicle-specials .special .vehicle-title h2 {
-      margin-top: 20px;
-      margin-bottom: 5px; }
-    #dol_advert1 .latest-vehicle-specials .special .vehicle-title h4 {
-      font-style: italic;
-      color: #aaa;
-      margin-top: 5px; }
-    #dol_advert1 .latest-vehicle-specials .special .vehicle-group-rating h1 {
-      margin-top: 30px; }
-  #dol_advert1 .slider-controls {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -10;
-    display: inline-block; }
-    #dol_advert1 .slider-controls > div {
-      z-index: 0;
-      background-color: #EAECF0;
-      height: 64px;
-      width: 64px;
-      top: 193.22px;
-      position: absolute;
-      float: left;
-      left: 50px;
-      cursor: pointer; }
-      #dol_advert1 .slider-controls > div .slider-icon {
-        height: 13.5px;
-        width: 8.38px;
-        background-image: url("images/slider-control.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        margin: auto;
-        top: 25.25px; }
-      #dol_advert1 .slider-controls > div.slider-next {
-        right: 50px;
-        left: initial; }
-        #dol_advert1 .slider-controls > div.slider-next .slider-icon {
-          -webkit-transform: rotate(180deg);
-          -moz-transform: rotate(180deg);
-          -ms-transform: rotate(180deg);
-          -o-transform: rotate(180deg);
-          transform: rotate(180deg); }
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-group-rating {
+        display: inline-block;
+        margin-left: calc(50% - 68px); }
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-plan {
+        background: #EA4A4A;
+        border-radius: 50%;
+        margin-right: 16px;
+        height: 68px;
+        width: 68px;
+        float: left;
+        text-align: center; }
+        #dol_advert1 .latest-vehicle-specials .special .vehicle-plan p {
+          color: #fff;
+          font-size: 12px;
+          padding-top: 7px;
+          line-height: 12px;
+          font-family: SourceSansPro-Semibold; }
+          #dol_advert1 .latest-vehicle-specials .special .vehicle-plan p span {
+            font-size: 27px;
+            display: block;
+            margin-top: 7px;
+            font-weight: 900; }
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-price {
+        margin-top: 7px; }
+        #dol_advert1 .latest-vehicle-specials .special .vehicle-price p {
+          color: #C1C4C5;
+          font-size: 14px;
+          text-align: left; }
+        #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:nth-of-type(2) {
+          color: #007AC3;
+          font-size: 33px;
+          display: inline-block; }
+  				#dol_advert1 .latest-vehicle-specials .special .vehicle-price span:first-of-type {
+  					display: none;
+  				}
+        #dol_advert1 .latest-vehicle-specials .special .vehicle-price span:last-of-type {
+          margin-left: 22px;
+          position: relative;
+          top: -7px; }
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-title h2 {
+        margin-top: 20px;
+  			margin-bottom: 5px; }
+  		#dol_advert1 .latest-vehicle-specials .special .vehicle-title p {
+  			font-style: italic;
+  			font-size: 15px;
+  			color: #999;
+  			margin-top: 5px; }
+      #dol_advert1 .latest-vehicle-specials .special .vehicle-group-rating h1 {
+        margin-top: 30px; }
